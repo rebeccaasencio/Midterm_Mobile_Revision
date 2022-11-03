@@ -90,6 +90,10 @@ h1{
     font-size: 40px;
   }
 
+  .PageHeading{
+    font-size: 30px;
+  }
+
   img {
     max-width: 75%;
     margin-bottom: 10px;

@@ -76,8 +76,13 @@ h1{
 
 @media only screen and (max-width: 469px) {
 
+  body,html{
+    overflow-x: hidden;
+  }
+
   body{
     background-color: green;
+    width: 100%;
   }
 
   h1{

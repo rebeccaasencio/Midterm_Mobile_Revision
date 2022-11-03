@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  border: 0px;
+  margin: 0px;
+  padding: 2vmin;
+  font-family: 'Comic Neue', cursive;
+  }
+
+body{
+  background: rgb(234,87,246);
+  background: linear-gradient(0deg, rgba(234,87,246,1) 0%, rgba(40,178,233,1) 47%, rgba(76,223,76,1) 100%);
+}
+
+.PageContent{
+  /* margin-left: 50px;
+  margin-right: 50px; */
+}
+
+h1{
+  font-size: 84px;
+}
+
+.PageHeading{
+  display: flex;
+  justify-content: center;
+  font-size: 84px;
+  font-family: 'Rubik Bubbles', cursive;
+}
+
+.paragraph{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  color: white;
+  font-size: 40px;
+}
+
+.inspocaption{
+  display: block;
+  color: white;
+  font-size: 36px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.caption{
+  color: white;
+  font-size: 42px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#ConceptArtTitle{
+  color: #006100;
+}
+
+#Story_title{
+  color: #015f60;
+}
+
+#Inspiration_title{
+  color: #5d4cc8;
+}
+
+
+@media only screen and (max-width: 469px) {
+
+  body{
+    background-color: green;
+  }
+
+  h1{
+    margin: auto;
+    font-size: 40px;
+  }
+
+  img {
+    max-width: 75%;
+    margin-bottom: 10px;
+  }
+
+  figure{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+}

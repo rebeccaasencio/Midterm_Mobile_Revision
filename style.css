@@ -13,8 +13,8 @@ body, html{
   }
 
 body{
-  /* background: rgb(234,87,246); */
-  /* background: linear-gradient(0deg, rgba(234,87,246,1) 0%, rgba(40,178,233,1) 47%, rgba(76,223,76,1) 100%); */
+  background-color: rgb(234,87,246);
+  background-color: linear-gradient(0deg, rgba(234,87,246,1) 0%, rgba(40,178,233,1) 47%, rgba(76,223,76,1) 100%);
 }
 
 .PageContent{
@@ -91,7 +91,8 @@ h1{
   }
 
   .PageHeading{
-    font-size: 30px;
+    font-size: 50px;
+    max-width: 75%
   }
 
   img {

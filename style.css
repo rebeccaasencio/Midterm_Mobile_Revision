@@ -6,22 +6,17 @@
 }
 
 body, html{
-  border: 0px;
   margin: 0px;
   padding: 0px;
   font-family: 'Comic Neue', cursive;
-  display: flex;
-  justify-content: center;
-  }
-
-body{
   background-color: rgb(234,87,246);
   background-image: linear-gradient(0deg, rgba(234,87,246,1) 0%, rgba(40,178,233,1) 47%, rgba(76,223,76,1) 100%);
-}
+  }
+
 
 .PageContent{
-  /* margin-left: 50px; */
-  /* margin-right: 50px; */
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 h1{
@@ -31,8 +26,6 @@ h1{
 .PageHeading{
   display: flex;
   justify-content: center;
-  align-items: center;
-  align-content: center;
   font-size: 84px;
   font-family: 'Rubik Bubbles', cursive;
 }
@@ -40,9 +33,6 @@ h1{
 .paragraph{
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
   color: white;
   font-size: 40px;
 }
@@ -248,7 +238,7 @@ iframe{
   }
   .PageHeading{
     font-size: 50px;
-    max-width: 75%
+    max-width: 75%;
   }
 
   figure{

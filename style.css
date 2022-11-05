@@ -259,10 +259,16 @@ iframe{
     justify-content: center;
     max-width: 75%;
     margin: auto;
-    max-height: auto;
+    max-height: 30vh;
   }
 
   .thumbnailContanier04{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .thumbnailContanier06{
     display: flex;
     justify-content: center;
     flex-direction: column;

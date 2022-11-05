@@ -236,9 +236,19 @@ iframe{
     margin: auto;
     font-size: 35px;
   }
+
+  .paragraph{
+    font-size: 24px;
+  }
+
   .PageHeading{
     font-size: 50px;
     max-width: 75%;
+  }
+
+  .embedded_iframes{
+    width: 300px;
+    height: 400px;
   }
 
   figure{

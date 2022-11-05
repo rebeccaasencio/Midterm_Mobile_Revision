@@ -241,6 +241,14 @@ iframe{
     font-size: 24px;
   }
 
+  .caption{
+    font-size: 24px;
+  }
+
+  .inspocaption{
+    font-size: 24px;
+  }
+
   .PageHeading{
     font-size: 50px;
     max-width: 75%;
@@ -251,6 +259,7 @@ iframe{
     justify-content: center;
     max-width: 75%;
     margin: auto;
+    max-height: auto;
   }
 
   .thumbnailContanier04{

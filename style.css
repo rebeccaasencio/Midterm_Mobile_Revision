@@ -234,13 +234,13 @@ iframe{
 
 @media only screen and (max-width:480px){
   body,html{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
   }
   body{
     background-color: green;
     width: 100%;
     background-image: none;
-    background-size: 100%;
+    /* background-size: 100%; */
   }
   h1{
     margin: auto;
@@ -251,19 +251,29 @@ iframe{
     max-width: 75%
   }
 
-  img {
-    max-width: 75%;
-    margin-bottom: 10px;
+  figure{
+    margin: auto;
+    display: flex;
+    justify-content: center;
   }
 
-  figure{
+}
+
+  /* img {
+    max-width: 75%;
+    margin-bottom: 10px;
+  } */
+
+
+
+  /* figure{
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
-  }
+  } */
 
 }
 

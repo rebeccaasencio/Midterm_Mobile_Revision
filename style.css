@@ -441,6 +441,7 @@ iframe{
     display: flex;
     justify-content: center;
     gap: 10px;
+    flex-direction: column;
     /* margin-top: 20px; */
   }
 

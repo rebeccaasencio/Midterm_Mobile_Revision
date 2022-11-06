@@ -272,6 +272,7 @@ iframe{
 
   #ConceptArtTitle{
     color: pink;
+    margin-top: 10px;
   }
 
   #Story_title{
@@ -280,14 +281,17 @@ iframe{
 
   #Inspiration_title{
     color: pink;
+    margin-top: 10px;
   }
 
   #MeetCharacters{
     color: pink;
+    margin-top: 10px;
   }
 
   #GameplaySection{
     color: pink;
+    margin-top: 10px;
   }
 
   #Hints_header{

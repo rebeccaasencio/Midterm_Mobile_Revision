@@ -351,6 +351,23 @@ iframe{
     max-width: 75%;
   }
 
+  .thumbnailContanier01{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .thumbnailItem01{
+    width: 100%;
+  }
+
+  .thumbnailImage01{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center center;
+  }
+
   /* .embedded_iframes iframe{
     position: absolute;
     /* top:0;

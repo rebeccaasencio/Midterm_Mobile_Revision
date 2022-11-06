@@ -324,13 +324,19 @@ iframe{
     max-width: 75%;
   }
 
-  .embedded_iframes iframe{
+  .embedded_iframes{
     display: flex;
     justify-content: center;
     margin: auto;
     /* max-width: 75%; */
-    width: 440px;
+    /* width: 440px;
     height: 100%;
+    object-fit: contain; */
+  }
+
+  iframe{
+    width: 300px;
+    height: 200px;
     object-fit: contain;
   }
 

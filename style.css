@@ -341,7 +341,7 @@ iframe{
 
 .embedded_iframes iframe{
   width: 100% !important;
-  height: 200px !important;
+  height: 300px !important;
   object-fit: contain;
   margin: auto;
   display: flex;

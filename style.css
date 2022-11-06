@@ -380,7 +380,7 @@ iframe{
 
   .thumbnailImage02{
     width: 100%;
-    height: 590px;
+    height: 300px;
     object-fit: cover;
     object-position: center center;
   }
@@ -398,7 +398,7 @@ iframe{
 
   .thumbnailImage03{
     width: 100%;
-    height: 585px;
+    height: 300px;
     object-fit: cover;
     object-position: center center;
   }
@@ -415,7 +415,7 @@ iframe{
 
   .thumbnailImage04{
     width: 100%;
-    height: 600px;
+    height: 300px;
     object-fit: cover;
     object-position: center center;
   }

@@ -340,7 +340,7 @@ iframe{
   /* } */
 
 .embedded_iframes{
-  width: 400px;
+  max-width: 50%;
   height: 100%;
   margin: auto;
   object-fit: contain;

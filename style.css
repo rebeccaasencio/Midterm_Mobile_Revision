@@ -53,6 +53,27 @@ h1{
   margin-bottom: 20px;
 }
 
+.caption01{
+  color: white;
+  font-size: 42px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.caption02{
+  color: white;
+  font-size: 42px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.caption03{
+  color: white;
+  font-size: 42px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
 #ConceptArtTitle{
   color: #006100;
 }
@@ -279,6 +300,18 @@ iframe{
 
   .caption{
     font-size: 24px;
+  }
+
+  .caption01{
+    font-size: 24px;
+  }
+
+  .caption02{
+  font-size: 24px;
+  }
+
+  .caption03{
+  font-size: 24px;
   }
 
   .inspocaption{

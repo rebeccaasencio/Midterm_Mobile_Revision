@@ -316,6 +316,7 @@ iframe{
 
   .inspocaption{
     font-size: 24px;
+    margin-bottom: 10px;
   }
 
   .PageHeading{
@@ -326,11 +327,11 @@ iframe{
   .embedded_iframes iframe{
     display: flex;
     justify-content: center;
-    /* max-width: 75%; */
-    max-width: 480px;
     margin: auto;
+    /* max-width: 75%; */
+    width: 440px;
     height: 100%;
-    /* object-fit: contain; */
+    object-fit: contain;
   }
 
   /* iframe{

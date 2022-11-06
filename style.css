@@ -360,18 +360,21 @@ iframe{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    column-gap: 5px;
   }
 
   .thumbnailContanier06{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    column-gap: 5px;
   }
 
   figure{
     margin: auto;
     display: flex;
     justify-content: center;
+    column-gap: 5px;
   }
 
 }

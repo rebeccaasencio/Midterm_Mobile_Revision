@@ -54,15 +54,27 @@ h1{
 }
 
 #ConceptArtTitle{
-  color: pink;
+  color: #006100;
 }
 
 #Story_title{
-  color: #015f60;
+  color: #007b31;
 }
 
 #Inspiration_title{
+  color: #026f4d;
+}
+
+#MeetCharacters{
+  color: #015f60;
+}
+
+#GameplaySection{
   color: #5d4cc8;
+}
+
+#Hints_header{
+  color: #860091;
 }
 
 .logoContanier{
@@ -259,7 +271,8 @@ iframe{
     justify-content: center;
     max-width: 75%;
     margin: auto;
-    max-height: 30vh;
+    max-height: 75%;
+    object-fit: contain;
   }
 
   .thumbnailContanier04{

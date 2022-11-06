@@ -249,6 +249,30 @@ iframe{
     font-size: 35px;
   }
 
+  #ConceptArtTitle{
+    color: pink;
+  }
+
+  #Story_title{
+    color: pink;
+  }
+
+  #Inspiration_title{
+    color: pink;
+  }
+
+  #MeetCharacters{
+    color: pink;
+  }
+
+  #GameplaySection{
+    color: pink;
+  }
+
+  #Hints_header{
+    color: pink;
+  }
+
   .paragraph{
     font-size: 24px;
   }

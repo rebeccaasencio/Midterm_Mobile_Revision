@@ -131,6 +131,12 @@ h1{
   object-fit: contain;
 }
 
+
+.thumbnailItem01 > p{
+  text-align: center;
+  font-size: 24px;
+}
+
 .thumbnailContanier02{
   display: flex;
   justify-content: center;
@@ -147,6 +153,11 @@ h1{
   object-fit: contain;
 }
 
+
+.thumbnailItem02 > p{
+  text-align: center;
+  font-size: 24px;
+}
 
 .thumbnailContanier03{
   display: flex;
@@ -165,6 +176,12 @@ h1{
   object-fit: contain;
 }
 
+
+.thumbnailItem03 > p{
+  text-align: center;
+  font-size: 24px;
+}
+
 .thumbnailContanier04{
   display: flex;
   justify-content: center;
@@ -179,6 +196,12 @@ h1{
   width: 100%;
   height: 600px;
   object-fit: contain;
+}
+
+
+.thumbnailItem04 > p{
+  text-align: center;
+  font-size: 24px;
 }
 
 .thumbnailContanier05{

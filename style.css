@@ -323,7 +323,7 @@ iframe{
     max-width: 75%;
   }
 
-  .embedded_iframes{
+  .embedded_iframes iframe{
     display: flex;
     justify-content: center;
     /* max-width: 75%; */
@@ -332,6 +332,10 @@ iframe{
     height: 200px;
     object-fit: contain;
   }
+
+  /* iframe{
+    max-width: 100%;
+  } */
 
   .thumbnailContanier04{
     display: flex;

@@ -340,11 +340,10 @@ iframe{
   /* } */
 
 .embedded_iframes{
-    position: relative;
-    width: 400px;
-    height: 100%;
-    object-fit: contain;
-    margin: auto;
+  width: 400px;
+  height: 100%;
+  margin: auto;
+  object-fit: contain;
   }
 
   /* iframe{

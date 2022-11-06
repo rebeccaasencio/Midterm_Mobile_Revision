@@ -339,9 +339,9 @@ iframe{
     object-fit: contain; */
   /* } */
 
-.embedded_iframes{
-  width: 75%;
-  height: 100%;
+.embedded_iframes iframe{
+  width: 100% !important;
+  height: 200px !important;
   object-fit: contain;
   margin: auto;
   display: flex;

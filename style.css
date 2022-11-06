@@ -351,6 +351,23 @@ iframe{
     max-width: 75%;
   }
 
+  .logoContanier{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+  }
+
+  .logoItem{
+    width: 100%;
+  }
+
+  .logoImage{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+  }
+
   .thumbnailContanier01{
     display: flex;
     justify-content: center;
@@ -364,8 +381,8 @@ iframe{
   .thumbnailImage01{
     width: 100%;
     height: 300px;
-    object-fit: cover;
-    object-position: center center;
+    object-fit: contain;
+    /* object-position: center center; */
   }
 
   .thumbnailContanier02{
@@ -381,8 +398,8 @@ iframe{
   .thumbnailImage02{
     width: 100%;
     height: 300px;
-    object-fit: cover;
-    object-position: center center;
+    object-fit: contain;
+    /* object-position: center center; */
   }
 
   .thumbnailContanier03{
@@ -399,8 +416,8 @@ iframe{
   .thumbnailImage03{
     width: 100%;
     height: 300px;
-    object-fit: cover;
-    object-position: center center;
+    object-fit: contain;
+    /* object-position: center center; */
   }
 
   .thumbnailContanier04{
@@ -416,8 +433,8 @@ iframe{
   .thumbnailImage04{
     width: 100%;
     height: 300px;
-    object-fit: cover;
-    object-position: center center;
+    object-fit: contain;
+    /* object-position: center center; */
   }
 
   /* .embedded_iframes iframe{
@@ -470,58 +487,3 @@ iframe{
   }
 
 }
-
-  /* img {
-    max-width: 75%;
-    margin-bottom: 10px;
-  } */
-
-
-
-  /* figure{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  } */
-
-}
-
-/* @media only screen and (max-width: 469px) {
-
-  body,html{
-    overflow-x: hidden;
-  }
-
-  body{
-    background-color: green;
-    width: 100%;
-  }
-
-  h1{
-    margin: auto;
-    font-size: 40px;
-  }
-
-  .PageHeading{
-    font-size: 50px;
-    max-width: 75%
-  }
-
-  img {
-    max-width: 75%;
-    margin-bottom: 10px;
-  }
-
-  figure{
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  }
-
-} */

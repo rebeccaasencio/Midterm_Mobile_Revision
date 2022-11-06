@@ -367,14 +367,14 @@ iframe{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    column-gap: 5px;
+    column-gap: 0px;
   }
 
   figure{
     margin: auto;
     display: flex;
     justify-content: center;
-    column-gap: 5px;
+    column-gap: 0px;
   }
 
 }

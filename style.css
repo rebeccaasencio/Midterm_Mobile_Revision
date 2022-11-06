@@ -328,11 +328,11 @@ iframe{
     position: absolute;
     /* top:0;
     left: 0; */
-    width: 100%;
+    /* width: 100%;
     height: 100%;
     /* display: flex; */
     /* justify-content: center; */
-    margin: auto;
+    /* margin: auto; */ 
     /* max-width: 75%; */
     /* width: 440px;
     height: 100%;
@@ -341,7 +341,7 @@ iframe{
 
   iframe{
     position: relative;
-    width: 100%;
+    width: 400px;
     height: 100%;
     object-fit: contain;
     margin: auto;

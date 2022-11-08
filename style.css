@@ -28,33 +28,39 @@ body, html{
   text-decoration: none;
   font-size: 35px;
 }
+
 .menuBar a:hover{
-  /* background-color: plum; */
   color: darkgreen;
 }
+
 .menuBar ul{
   list-style: none;
   display: flex;
 }
+
 .menuBar li{
   position: relative;
   width: 100%;
   text-align: center;
 }
+
 .menuBar li:hover .DropDownMenu > li{
   display: block;
   top: 0;
 }
+
 .DropDownMenu li{
   display: none;
   position: relative;
 }
+
 .DropDownMenu{
   position: absolute;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
+
 .DropDownMenu li:hover{
   display: block;
 }
@@ -82,7 +88,6 @@ h1{
   color: white;
   font-size: 36px;
   margin: auto;
-  /* margin-bottom: 20px; */
   text-align: center;
 }
 
@@ -90,28 +95,24 @@ h1{
   color: white;
   font-size: 42px;
   margin: auto;
-  /* margin-bottom: 20px; */
 }
 
 .caption01{
   color: white;
   font-size: 42px;
   margin: auto;
-  /* margin-bottom: 20px; */
 }
 
 .caption02{
   color: white;
   font-size: 42px;
   margin: auto;
-  /* margin-bottom: 20px; */
 }
 
 .caption03{
   color: white;
   font-size: 42px;
   margin: auto;
-  /* margin-bottom: 20px; */
 }
 
 #ConceptArtTitle{
@@ -170,7 +171,6 @@ h1{
   height: 600px;
   object-fit: contain;
 }
-
 
 .thumbnailItem01 > p{
   text-align: center;
@@ -249,7 +249,6 @@ h1{
   justify-content: center;
   gap: 10px;
   flex-direction: column;
-  /* margin-top: 20px; */
 }
 
 .thumbnailItem05{
@@ -270,8 +269,6 @@ h1{
 iframe{
   display: block;
   margin: auto;
-  /* margin-top: 20px; */
-  /* margin-bottom: 20px; */
 }
 
 #frame{
@@ -282,7 +279,6 @@ iframe{
   width: 1000px;
   height: 800px;
 }
-
 
 #frame02{
   display: flex;
@@ -297,7 +293,6 @@ iframe{
   display: flex;
   justify-content: center;
   gap: 10px;
-  /* margin-top: 20px; */
 }
 
 .thumbnailItem06{
@@ -313,7 +308,6 @@ iframe{
 #pixel_frames{
   display: block;
   margin: auto;
-  /* margin-top: 20px; */
   width: 300px;
   height: 400px;
 }
@@ -326,7 +320,6 @@ iframe{
     background-color: green;
     width: 100%;
     background-image: none;
-    /* background-size: 100%; */
   }
 
   .menuBar{
@@ -428,7 +421,6 @@ iframe{
     width: 100%;
     height: 300px;
     object-fit: contain;
-    /* object-position: center center; */
   }
 
   .thumbnailContanier02{
@@ -445,7 +437,6 @@ iframe{
     width: 100%;
     height: 300px;
     object-fit: contain;
-    /* object-position: center center; */
   }
 
   .thumbnailContanier03{
@@ -463,7 +454,6 @@ iframe{
     width: 100%;
     height: 300px;
     object-fit: contain;
-    /* object-position: center center; */
   }
 
   .thumbnailContanier04{
@@ -481,7 +471,6 @@ iframe{
     width: 100%;
     height: 300px;
     object-fit: contain;
-    /* object-position: center center; */
   }
 
   .thumbnailContanier06{
@@ -489,7 +478,6 @@ iframe{
     justify-content: center;
     gap: 10px;
     flex-direction: column;
-    /* margin-top: 20px; */
   }
 
   .thumbnailItem06{
@@ -502,28 +490,14 @@ iframe{
     object-fit: contain;
   }
 
-
-.embedded_iframes iframe{
-  width: 100% !important;
-  height: 200px !important;
-  object-fit: contain;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  }
-
-
-  /* .thumbnailContanier04{
+  .embedded_iframes iframe{
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: contain;
+    margin: auto;
     display: flex;
     justify-content: center;
-    flex-direction: column;
   }
-
-  .thumbnailContanier06{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  } */
 
   figure{
     margin: auto;
@@ -531,5 +505,4 @@ iframe{
     justify-content: center;
     column-gap: 0px;
   }
-
 }

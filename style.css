@@ -19,6 +19,46 @@ body, html{
   margin-right: 50px;
 }
 
+.menuBar a{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  height: 60px;
+  text-decoration: none;
+  font-size: 35px;
+}
+.menuBar a:hover{
+  /* background-color: plum; */
+  color: darkgreen;
+}
+.menuBar ul{
+  list-style: none;
+  display: flex;
+}
+.menuBar li{
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.menuBar li:hover .DropDownMenu > li{
+  display: block;
+  top: 0;
+}
+.DropDownMenu li{
+  display: none;
+  position: relative;
+}
+.DropDownMenu{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.DropDownMenu li:hover{
+  display: block;
+}
+
 h1{
   font-size: 84px;
 }

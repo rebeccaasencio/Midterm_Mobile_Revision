@@ -331,6 +331,7 @@ iframe{
 
   .menuBar{
   display: none;
+  visibility: hidden;
   }
 
   h1{

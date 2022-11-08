@@ -328,6 +328,11 @@ iframe{
     background-image: none;
     /* background-size: 100%; */
   }
+
+  .menuBar{
+  display: none;
+  }
+
   h1{
     margin: auto;
     font-size: 35px;
